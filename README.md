@@ -140,7 +140,7 @@ If you found no solution in the issues, feel free to open a new issue for your p
 
 4. Clone this repository into your catkin workspace, install the dependencies and build it:
 
-   ```
+```
 cd ~/catkin_ws/src/
 git clone https://github.com/code-iai/iai_kinect2.git
 cd iai_kinect2
@@ -157,7 +157,7 @@ catkin_make -DCMAKE_BUILD_TYPE="Release"
 
 5. Connect your sensor and run `kinect2_bridge`:
 
-   ```
+```
 roslaunch kinect2_bridge kinect2_bridge.launch
 ```
 6. Calibrate your sensor using the `kinect2_calibration`. [Further details](kinect2_calibration#calibrating-the-kinect-one)
